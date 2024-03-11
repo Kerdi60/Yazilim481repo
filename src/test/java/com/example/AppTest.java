@@ -50,6 +50,7 @@ public class AppTest {
         assertEquals("halatasaray", App.sakir(nums, index, "galatasaray", false));
     }
 
+    // null tester
     @Test
     public void testNull() {
         assertEquals(null, App.sakir(null, index, "denemeler", false));
