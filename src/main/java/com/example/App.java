@@ -85,6 +85,7 @@ public class App {
         get("/compute",
                 (rq, rs) -> {
                     Map map = new HashMap();
+                    map.put("oldStr", "not computed yet!");
                     map.put("result", "not computed yet!");
                     return new ModelAndView(map, "compute.mustache");
                 },
